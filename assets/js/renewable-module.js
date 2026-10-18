@@ -33,12 +33,12 @@ export const RENEWABLE_IMAGES = Object.freeze({
     biomass: 'assets/img/renewable/type-biomass.webp',
     geothermal: 'assets/img/renewable/type-geothermal.webp'
   }),
-  climateOverview: 'assets/img/renewable/climate-overview.webp',
+  climateOverview: 'assets/img/renewable/climate-overview.webp?v=20261018-1',
   climateMap: 'assets/img/renewable/climate-map.webp',
   climateNotebook: 'assets/img/renewable/climate-notebook.webp',
   ukOverview: 'assets/img/renewable/uk-overview.webp',
   ukMap: 'assets/img/renewable/uk-map.webp',
-  avonmouthLaunch: 'assets/img/renewable/avonmouth-launch.webp',
+  avonmouthLaunch: 'assets/img/renewable/avonmouth-launch.webp?v=20261018-1',
   avonmouthCase: 'assets/img/renewable/avonmouth-case.webp'
 });
 

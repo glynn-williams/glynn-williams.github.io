@@ -1,5 +1,5 @@
 import { createTabsController } from './tabs.js';
-import { createRenewableModuleController } from './renewable-module.js?v=20261017-3';
+import { createRenewableModuleController } from './renewable-module.js?v=20261018-1';
 
 const THEME_KEY = 'resume-theme';
 
