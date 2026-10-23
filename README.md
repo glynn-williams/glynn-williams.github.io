@@ -4,10 +4,10 @@ A dependency-free static portfolio site for Glynn Williams, designed for GitHub 
 
 ## Public site
 
-Repository: `https://github.com/WeeJubya/Resume`  
-Expected GitHub Pages URL: `https://weejubya.github.io/Resume/`
+Repository: `https://github.com/glynn-williams/glynn-williams.github.io`  
+Expected GitHub Pages URL: `https://glynn-williams.github.io/`
 
-The site is intentionally static: there is no framework, package manager, CDN, analytics script or build step. All production assets use relative paths so the project works beneath the GitHub Pages `/Resume/` project path.
+The site is intentionally static: there is no framework, package manager, CDN, analytics script or build step. All production assets use relative paths so the project works beneath the GitHub Pages `/glynn-williams.github.io/` project path.
 
 ## 1. Put the site in `C:\Dev\Resume`
 
@@ -57,7 +57,7 @@ The repository does not need to exist before you prepare the local folder.
 
 The repository address should then be:
 
-`https://github.com/WeeJubya/Resume`
+`https://github.com/glynn-williams/glynn-williams.github.io`
 
 ## 4. Initialise the local repository and push it
 
@@ -70,7 +70,7 @@ git init
 git add .
 git commit -m "Initial portfolio site"
 git branch -M main
-git remote add origin https://github.com/WeeJubya/Resume.git
+git remote add origin https://github.com/glynn-williams/glynn-williams.github.io.git
 git push -u origin main
 ```
 
@@ -96,13 +96,13 @@ git remote -v
 If there is no `origin` remote yet, add it:
 
 ```powershell
-git remote add origin https://github.com/WeeJubya/Resume.git
+git remote add origin https://github.com/glynn-williams/glynn-williams.github.io.git
 ```
 
 If `origin` exists but points somewhere else, change it deliberately:
 
 ```powershell
-git remote set-url origin https://github.com/WeeJubya/Resume.git
+git remote set-url origin https://github.com/glynn-williams/glynn-williams.github.io.git
 ```
 
 Then make sure the publishing branch is named `main` and push it:
@@ -116,7 +116,7 @@ git push -u origin main
 
 After the first push:
 
-1. Open `https://github.com/WeeJubya/Resume`.
+1. Open `https://github.com/glynn-williams/glynn-williams.github.io`.
 2. Select **Settings**.
 3. Select **Pages** in the repository settings sidebar.
 4. Under **Build and deployment**, set **Source** to **Deploy from a branch**.
@@ -127,7 +127,7 @@ After the first push:
 
 Expected public address:
 
-`https://weejubya.github.io/Resume/`
+`https://glynn-williams.github.io`
 
 Because this is a project site rather than an account-root site, it is served beneath `/Resume/`. The production CSS, JavaScript and image links are therefore relative rather than root-absolute.
 
@@ -222,4 +222,4 @@ git commit -m "Release Resume portfolio V3"
 git push origin main
 ```
 
-The preview site is published from the repository root at `https://weejubya.github.io/Resume/`.
+The preview site is published from the repository root at `https://glynn-williams.github.io`.
